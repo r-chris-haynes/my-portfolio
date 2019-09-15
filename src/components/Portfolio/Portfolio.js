@@ -57,13 +57,15 @@ export default class Portfolio extends Component {
           {/* Modal Popup
 	      --------------------------------------------------------------- */}
           <div id="modal-01" className="popup-modal mfp-hide">
-            {/* <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" /> */}
             <div className="description-box">
               <h4>Adventure Book</h4>
               <p>Choose your own adventure app. Created with Mongo, Express, React and Node</p>
             </div>
             <div className="link-box">
-              <a href="http://adventure-book-v2.herokuapp.com/">View</a>
+              <a href="http://adventure-book-v2.herokuapp.com/">See the App</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/AdventureBookv2">View the Code</a>
+              <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-01 End */}
@@ -73,17 +75,23 @@ export default class Portfolio extends Component {
               <p>Memory game created with React.</p>
             </div>
             <div className="link-box">
-              <a href="https://r-chris-haynes.github.io/clickyGame/">View</a>
+              <a href="https://r-chris-haynes.github.io/clickyGame/">See the app</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/clickyGame">View the Code</a>
+              <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
           <div id="modal-03" className="popup-modal mfp-hide">
             <div className="description-box">
-              <h4>Eat Da Burger</h4>
-              <p>Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Made with  MySQL, Node, Express, Handlebars</p>
+              <h4>Eat the Burger</h4>
+              <p>Eat the Burger is a restaurant app that lets users input the names of burgers they'd like to eat. Made with  MySQL, Node, Express, Handlebars</p>
             </div>
             <div className="link-box">
-              <a href="https://chrisburger.herokuapp.com/">View</a>
+              <a href="https://chrisburger.herokuapp.com/">See the app</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/Burger">View the Code</a>
+              <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
