@@ -54,10 +54,23 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img className="port-image" alt="burger" src="images/portfolio/train.jpeg" />
+                    <img className="port-image" alt="train" src="images/portfolio/train.jpeg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Train Scheduler</h5>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-05" title>
+                    <img className="port-image" alt="simpsons" src="images/portfolio/simpsons.jpeg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Simpson's Hangman</h5>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -121,6 +134,20 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
+          <div id="modal-05" className="popup-modal mfp-hide">
+            <div className="description-box">
+              <h4>Simpson's Hangman</h4>
+              <p>Simpson's Hangman is a word guess game, where users try to choose the name of a randomly selected Simpson's character.  It was made with vanilla javaScript, HTML and CSS.</p>
+            </div>
+            <div className="link-box">
+              <a href="https://r-chris-haynes.github.io/Word-Guess-Game/" target="blank">See the app</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/Word-Guess-Game" target="blank">View the Code</a>
+              <br></br>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-05 End */}
+          
           
           <div id="modal-05" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
