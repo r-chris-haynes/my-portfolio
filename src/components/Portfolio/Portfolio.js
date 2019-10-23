@@ -51,6 +51,19 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-04" title>
+                    <img className="port-image" alt="burger" src="images/portfolio/train.jpeg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Train Scheduler</h5>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
               
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
@@ -62,9 +75,9 @@ export default class Portfolio extends Component {
               <p>Choose your own adventure app. Created with Mongo, Express, React and Node</p>
             </div>
             <div className="link-box">
-              <a href="http://adventure-book-v2.herokuapp.com/">See the App</a>
+              <a href="http://adventure-book-v2.herokuapp.com/" target="blank">See the App</a>
               <br></br>
-              <a href="https://github.com/r-chris-haynes/AdventureBookv2">View the Code</a>
+              <a href="https://github.com/r-chris-haynes/AdventureBookv2" target="blank">View the Code</a>
               <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
@@ -75,9 +88,9 @@ export default class Portfolio extends Component {
               <p>Memory game created with React.</p>
             </div>
             <div className="link-box">
-              <a href="https://r-chris-haynes.github.io/clickyGame/">See the app</a>
+              <a href="https://r-chris-haynes.github.io/clickyGame/" target="blank">See the app</a>
               <br></br>
-              <a href="https://github.com/r-chris-haynes/clickyGame">View the Code</a>
+              <a href="https://github.com/r-chris-haynes/clickyGame" target="blank">View the Code</a>
               <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
@@ -88,25 +101,27 @@ export default class Portfolio extends Component {
               <p>Eat the Burger is a restaurant app that lets users input the names of burgers they'd like to eat. Made with  MySQL, Node, Express, Handlebars</p>
             </div>
             <div className="link-box">
-              <a href="https://chrisburger.herokuapp.com/">See the app</a>
+              <a href="https://chrisburger.herokuapp.com/" target="blank">See the app</a>
               <br></br>
-              <a href="https://github.com/r-chris-haynes/Burger">View the Code</a>
+              <a href="https://github.com/r-chris-haynes/Burger" target="blank">View the Code</a>
               <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
             <div className="description-box">
-              <h4>Into the Light</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <h4>Train Scheduler</h4>
+              <p>Train scheduler is an application that incorporates Firebase to host arrival and departure data. The app retrieves and manipulates this information with Moment.js. This website provides up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://r-chris-haynes.github.io/Train-Scheduler/" target="blank">See the app</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/Train-Scheduler" target="blank">View the Code</a>
+              <br></br>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
+          
           <div id="modal-05" className="popup-modal mfp-hide">
             <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
             <div className="description-box">
