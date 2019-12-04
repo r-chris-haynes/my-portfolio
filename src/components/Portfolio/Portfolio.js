@@ -77,6 +77,19 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-06" title>
+                    <img className="port-image" alt="dice" src="images/portfolio/lights.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Dice Game</h5>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
               
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
@@ -147,6 +160,19 @@ export default class Portfolio extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
+          <div id="modal-06" className="popup-modal mfp-hide">
+            <div className="description-box">
+              <h4>Dice Game</h4>
+              <p>This is a two player dice game, that is played in rounds. First player to 100 wins.  It was made with vanilla javaScript, HTML and CSS.</p>
+            </div>
+            <div className="link-box">
+              <a href="https://r-chris-haynes.github.io/Dice-Game/" target="blank">See the app</a>
+              <br></br>
+              <a href="https://github.com/r-chris-haynes/Dice-Game" target="blank">View the Code</a>
+              <br></br>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-06 End */}
           
           
           <div id="modal-05" className="popup-modal mfp-hide">
