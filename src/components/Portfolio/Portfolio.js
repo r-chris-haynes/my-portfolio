@@ -150,7 +150,7 @@ export default class Portfolio extends Component {
           <div id="modal-05" className="popup-modal mfp-hide">
             <div className="description-box">
               <h4>Simpson's Hangman</h4>
-              <p>Simpson's Hangman is a word guess game, where users try to choose the name of a randomly selected Simpson's character.  It was made with vanilla javaScript, HTML and CSS.</p>
+              <p>Simpson's Hangman is a word guess game, where users try to choose the name of a randomly selected Simpson's character.  It was made with javaScript, HTML and CSS.</p>
             </div>
             <div className="link-box">
               <a href="https://r-chris-haynes.github.io/Word-Guess-Game/" target="blank">See the app</a>
@@ -163,7 +163,7 @@ export default class Portfolio extends Component {
           <div id="modal-06" className="popup-modal mfp-hide">
             <div className="description-box">
               <h4>Dice Game</h4>
-              <p>This is a two player dice game, that is played in rounds. First player to 100 wins.  It was made with vanilla javaScript, HTML and CSS.</p>
+              <p>This is a two player dice game, that is played in rounds. First player to 100 wins.  It was made with javaScript, HTML and CSS.</p>
             </div>
             <div className="link-box">
               <a href="https://r-chris-haynes.github.io/Dice-Game/" target="blank">See the app</a>
